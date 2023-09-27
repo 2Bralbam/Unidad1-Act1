@@ -1,0 +1,20 @@
+﻿@model Unidad1_Act1.Models.ViewModels.IndexViewModel.Perfil;
+@{
+    Layout = "Layout";
+}
+<h2>Mi perfil</h2>
+<ul>
+    <li class="miPerfil">
+        <a style="text-decoration: none; color: black; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 80%;" href="~/Home/MiPerfil">
+            <img src="~/assets/images/profile-pictures/@(Model.IdFoto).png" alt="Foto">
+            <p><b>Nombre:</b></p>
+            <p>@Model.Nombre</p>
+            <p><b>Carrera:</b></p>
+            <p>@Model.Carrera</p>
+            <p><b>Periodo:</b></></p>
+            <p>@Model.Periodo</p>
+            <p><b>Semestre:</b></p>
+            <p>@Model.Semestre</p>
+        </a>
+    </li>
+</ul>

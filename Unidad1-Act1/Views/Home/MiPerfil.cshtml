@@ -1,0 +1,26 @@
+﻿@{
+    Layout = "Layout";
+}
+<div class="datos">
+	<ul class="contenedorPerfil">
+		<li class="miPerfil-2">
+			<a style="text-decoration: none; color: black; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 80%;">
+				<img src="~/assets/images/profile-pictures/@(Model.IdFoto).png" alt="Foto">
+			</a>
+		</li>
+	</ul>
+	<div class="datosTxt" style="font-size:12px;">
+
+    <p>Nombre: @Model.Nombre</p>
+    <p>Apellido: @Model.Apellido</p>
+	<p>Direccion: @Model.Direccion</p>
+	<p>Telefono: @Model.Telefono</p>
+	<p>Email: @Model.Email</p>
+	<p>Fecha de nacimiento: @Model.FechaNacimiento</p>
+	<p>Genero: @Model.Genero</p>
+	<p>Nacionalidad: @Model.Nacionalidad</p>
+	<p>Carrera: @Model.Carrera</p>
+	<p>Semestre: @Model.Semestre</p>
+	<p>Numero de control: @Model.NumeroCtrl</p>
+	</div>
+</div>
