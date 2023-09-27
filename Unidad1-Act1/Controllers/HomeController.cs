@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Unidad1_Act1.Models.ViewModels;
 
 namespace Unidad1_Act1.Controllers
@@ -26,8 +26,8 @@ namespace Unidad1_Act1.Controllers
 				Apellido="Bautista Muñoz",
 				Direccion="Calle 1",
 				Telefono="1234567890",
-				Email="",
-				FechaNacimiento="201G0235@rcarbonifera.tecnm.mx",
+				Email= "201G0235@rcarbonifera.tecnm.mx",
+				FechaNacimiento="11/29/2002",
 				Genero="Masculino",
 				Nacionalidad="Mexicana",
 				Carrera="Ingenieria en Sistemas Computacionales",
